@@ -1,4 +1,20 @@
 baseURL = "https://mazilkhatib.github.io/my-tech-blog/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "ananke"
+theme = "hugo-theme-itheme"
+
+[params]
+  defaultCover = 'https://example.com/cover.jpg' 
+  email = 'floyd.li@outlook.com' 
+  [[params.socialMedia]] 
+    name = 'Github'
+    url = 'https://github.com/floyd-li'
+  [[params.socialMedia]]
+    name = 'Twitter'
+    url = 'https://twitter.com/some-one'
+  [[params.blogroll]] 
+    name = 'Apple'
+    url = 'https://Apple.com/'
+  [[params.blogroll]]
+    name = 'Google'
+    url = 'https://Google.com/'
